@@ -1,0 +1,36 @@
+{
+  "name": "OpenShift-Sample-App",
+  "version": "1.0.0",
+  "description": "Simple colaborative playlist",
+  "keywords": [
+    "partyfy",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "Daniel Torres",
+    "email": "daniel.torrer@gmail.com"
+  },
+  "engines": {
+    "node": "5.11.1",
+    "npm": "3.8.6"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "pug": "*",
+    "mongodb": "^1.4.6",
+    "socket.io": "*"
+  },
+  "private": true,
+  "main": "server.js",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1",
+    "node-sass": "^3.8.0"
+  }
+}

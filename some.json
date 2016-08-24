@@ -1,0 +1,35 @@
+{
+  "name": "OpenShift-Sample-App",
+  "version": "1.0.0",
+  "description": "Simple colaborative playlist",
+  "keywords": [
+    "rckbx",
+    "application"
+  ],
+  "author": {
+    "name": "Daniel Torres",
+    "email": "daniel.torrer@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.12.4",
+    "npm": ">=1.3.14"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "pug": "*",
+    "mongodb": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-sass": "*",
+    "node-sass": "*"
+  },
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
