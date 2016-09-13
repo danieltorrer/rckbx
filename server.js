@@ -140,7 +140,7 @@ var host   = require('./lib/host');
 		}
 
 		self.app.set('views', path.join(__dirname, 'views'));
-		self.app.set('view engine', 'pug');
+		self.app.set('view engine', 'jade');
 		self.app.use(express.logger('dev'));
 		self.app.use(express.json());
 		self.app.use(express.urlencoded());
