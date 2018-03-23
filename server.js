@@ -6,7 +6,7 @@ var path 	= require('path');
 var http 	= require('http');
 //var socketio= require('socket.io');
 
-var usuarios= [], mensajes = [], videos = [];
+var usuarios = [], mensajes = [], videos = [];
 var queue   = require('./lib/queue');
 var host   = require('./lib/host');
 /**
